@@ -1,9 +1,12 @@
 const express = require('express')
 
+const morgan = require('morgan')
+
 const app = express()
+app.use(morgan('combined'))
 
 app.get('/', (request, response) => {
-    console.log('Request,Received')
+   // console.log('Request,Received')
     //response.json({msg: 'Welcome'});
     response.end()
 })

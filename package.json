@@ -7,7 +7,7 @@
   "author": "Rohan0310 <rpalkar@confederationcollege.ca>",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1"
+    "morgan": "^1.10.0"
   },
   "scripts": {
     "dev": "nodemon index.js"
