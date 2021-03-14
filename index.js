@@ -1,10 +1,11 @@
-console.log("hi");
+const express = require('express')
 
-person = "Rohan"
-character  = {
-    name: person,
-    age: 24,
+const app = express()
 
-}
-console.log(person)
-console.log(character)
+app.get('/', (request, response) => {
+    console.log('Request,Received')
+    response.json({msg: 'Welcome'});
+})
+app.listen(3333, () => {
+    console.log ('The server is up and listening on port 3333')
+})
