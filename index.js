@@ -14,13 +14,13 @@ app.get('/', (request, response) => {
     //response.json({msg: 'Welcome'});
    // response.end()
 
-//    //Query
-//    console.log('Query parameter')
-//    console.log(request.query)
+   //Query
+   console.log('Query parameter')
+   console.log(request.query)
 
-   //Response
-//    console.log('Query parameter')
-//    console.log(request.params)
+   Route
+   console.log('Route parameter')
+   console.log(request.params)
 
    //response.send(request.query['first_name'])
  
